@@ -1,3 +1,0 @@
-/Users/zigaowang/Documents/GitHub/usaco/flood-fill-counting-rooms/cmake-build-debug/CMakeFiles/flood_fill_counting_rooms.dir
-/Users/zigaowang/Documents/GitHub/usaco/flood-fill-counting-rooms/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zigaowang/Documents/GitHub/usaco/flood-fill-counting-rooms/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-/Users/zigaowang/Documents/GitHub/usaco/668/cmake-build-debug/CMakeFiles/668.dir
-/Users/zigaowang/Documents/GitHub/usaco/668/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zigaowang/Documents/GitHub/usaco/668/cmake-build-debug/CMakeFiles/rebuild_cache.dir
