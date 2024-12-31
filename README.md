@@ -1,6 +1,6 @@
 # USACO • CSES • CF Training
 
-> [!NOTE]
+> [!IMPORTANT]
 > Folder names prefixed with `tle-` indicate "Time Limit Exceeded" questions. These will be retried in the future.
 
 My C++ solutions for computer programming problems from:
