@@ -1,0 +1,9 @@
+# ninja log v5
+1	531	1735617301432633143	CMakeFiles/1068_weird_algorithm.dir/main.cpp.o	a1dcd5c3e4f6f4a2
+533	640	1735617301544496259	1068_weird_algorithm	739faf6b6a816cb3
+10	545	1735617329772293504	CMakeFiles/1068_weird_algorithm.dir/main.cpp.o	a1dcd5c3e4f6f4a2
+545	572	1735617329801967628	1068_weird_algorithm	739faf6b6a816cb3
+7	802	1735617359943468106	CMakeFiles/1068_weird_algorithm.dir/main.cpp.o	a1dcd5c3e4f6f4a2
+802	829	1735617359972405734	1068_weird_algorithm	739faf6b6a816cb3
+6	467	1735617450777979051	CMakeFiles/1068_weird_algorithm.dir/main.cpp.o	a1dcd5c3e4f6f4a2
+467	555	1735617450867303212	1068_weird_algorithm	739faf6b6a816cb3
