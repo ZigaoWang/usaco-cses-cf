@@ -1,5 +1,8 @@
 # USACO • CSES • CF Training
 
+> [!NOTE]
+> Folder names prefixed with `tle-` indicate "Time Limit Exceeded" questions. These will be retried in the future.
+
 My C++ solutions for computer programming problems from:
 - [USACO](http://usaco.org/) (USA Computing Olympiad)
 - [CSES](https://cses.fi/) (Code Submission Evaluation System)
