@@ -2,7 +2,7 @@
 	"entries" : 
 	[
 		{
-			"name" : "1193_labyrinth_BINARY_DIR",
+			"name" : "1713_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -11,10 +11,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1193-labyrinth/cmake-build-debug"
+			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1713/cmake-build-debug"
 		},
 		{
-			"name" : "1193_labyrinth_IS_TOP_LEVEL",
+			"name" : "1713_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -26,7 +26,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "1193_labyrinth_SOURCE_DIR",
+			"name" : "1713_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1193-labyrinth"
+			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1713"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1193-labyrinth/cmake-build-debug"
+			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1713/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1193-labyrinth/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1713/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1193-labyrinth"
+			"value" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1713"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -855,7 +855,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1193_labyrinth"
+			"value" : "1713"
 		},
 		{
 			"name" : "CMAKE_RANLIB",

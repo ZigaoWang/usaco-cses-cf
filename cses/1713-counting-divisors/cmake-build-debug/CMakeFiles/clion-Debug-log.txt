@@ -1,4 +1,4 @@
-/Users/zigaowang/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/zigaowang/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/zigaowang/Documents/GitHub/usaco/cses/tle-1193-labyrinth -B /Users/zigaowang/Documents/GitHub/usaco/cses/tle-1193-labyrinth/cmake-build-debug
+/Users/zigaowang/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/zigaowang/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/zigaowang/Documents/GitHub/usaco/cses/1713 -B /Users/zigaowang/Documents/GitHub/usaco/cses/1713/cmake-build-debug
 -- The C compiler identification is AppleClang 16.0.0.16000026
 -- The CXX compiler identification is AppleClang 16.0.0.16000026
 -- Detecting C compiler ABI info
@@ -11,6 +11,6 @@
 -- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (0.5s)
+-- Configuring done (2.9s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/zigaowang/Documents/GitHub/usaco/cses/tle-1193-labyrinth/cmake-build-debug
+-- Build files have been written to: /Users/zigaowang/Documents/GitHub/usaco/cses/1713/cmake-build-debug

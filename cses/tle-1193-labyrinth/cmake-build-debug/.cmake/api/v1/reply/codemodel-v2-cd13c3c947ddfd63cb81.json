@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1193-labyrinth/cmake-build-debug",
-		"source" : "/Users/zigaowang/Documents/GitHub/usaco/cses/1193-labyrinth"
+		"build" : "/Users/zigaowang/Documents/GitHub/usaco/cses/tle-1193-labyrinth/cmake-build-debug",
+		"source" : "/Users/zigaowang/Documents/GitHub/usaco/cses/tle-1193-labyrinth"
 	},
 	"version" : 
 	{

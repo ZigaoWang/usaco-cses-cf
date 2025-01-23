@@ -5,36 +5,13 @@
 
 #include <iostream>
 #include <string>
+#include <queue>
 using namespace std;
 
+queue<int> q;
+string route[1050];
 int grid[1050][1050];
-bool visited[1050][1050];
 int n, m, startX, startY;
-string shortestPath;
-bool found = false;
-
-void dfs(int x, int y, string currentPath) {
-    if (x < 0 || x >= n || y < 0 || y >= m) return;
-    if (visited[x][y] || grid[x][y] == 1) return;
-    if (grid[x][y] == 3) {
-        if (!found || currentPath.length() < shortestPath.length()) {
-            shortestPath = currentPath;
-        }
-        found = true;
-        return;
-    }
-
-    if (found && currentPath.length() >= shortestPath.length()) return;
-
-    visited[x][y] = true;
-
-    dfs(x - 1, y, currentPath + "U"); // up
-    dfs(x + 1, y, currentPath + "D"); // down
-    dfs(x, y - 1, currentPath + "L"); // left
-    dfs(x, y + 1, currentPath + "R"); // right
-
-    visited[x][y] = false; // backtrack
-}
 
 int main() {
     cin >> n >> m;
@@ -58,16 +35,66 @@ int main() {
             }
         }
     }
-
-    dfs(startX, startY, "");
-
-    if (found) {
-        cout << "YES" << endl;
-        cout << shortestPath.length() << endl;
-        cout << shortestPath << endl;
-    } else {
+    q.push(startX);
+    q.push(startY);
+    while (!q.empty()) {
+        int x = q.front();
+        q.pop();
+        int y = q.front();
+        q.pop();
+        if (x > 0 && grid[x - 1][y] == 0) {
+            q.push(x - 1);
+            q.push(y);
+            grid[x - 1][y] = 2;
+            route[x - 1][y] = 'U';
+        }
+        if (x < n - 1 && grid[x + 1][y] == 0) {
+            q.push(x + 1);
+            q.push(y);
+            grid[x + 1][y] = 2;
+            route[x + 1][y] = 'D';
+        }
+        if (y > 0 && grid[x][y - 1] == 0) {
+            q.push(x);
+            q.push(y - 1);
+            grid[x][y - 1] = 2;
+            route[x][y - 1] = 'L';
+        }
+        if (y < m - 1 && grid[x][y + 1] == 0) {
+            q.push(x);
+            q.push(y + 1);
+            grid[x][y + 1] = 2;
+            route[x][y + 1] = 'R';
+        }
+    }
+    if (grid[startX][startY] != 2) {
         cout << "NO" << endl;
     }
-
+    else {
+        cout << "YES" << endl;
+        string s;
+        int x = startX;
+        int y = startY;
+        while (grid[x][y] != 3) {
+            s += route[x][y];
+            if (route[x][y] == 'U') {
+                x--;
+            }
+            else if (route[x][y] == 'D') {
+                x++;
+            }
+            else if (route[x][y] == 'L') {
+                y++;
+            }
+            else if (route[x][y] == 'R') {
+                y--;
+            }
+        }
+        cout << s.length() << endl;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            cout << s[i];
+        }
+        cout << endl;
+    }
     return 0;
 }
